@@ -1,11 +1,11 @@
 {
-  "name": "openmiq",
+  "name": "@openmiq/discord-bot",
   "version": "1.0.0",
   "description": "Open Source Discord MiQ Bot (for self-host)",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otnc/OpenMiQ.git"
+    "url": "git+https://github.com/OpenMiQ/discord-bot.git"
   },
   "keywords": [
     "discord",
@@ -17,9 +17,9 @@
   "type": "module",
   "packageManager": "pnpm@10.34.5",
   "bugs": {
-    "url": "https://github.com/otnc/OpenMiQ/issues"
+    "url": "https://github.com/OpenMiQ/discord-bot/issues"
   },
-  "homepage": "https://github.com/otnc/OpenMiQ#readme",
+  "homepage": "https://github.com/OpenMiQ/discord-bot#readme",
   "scripts": {
     "test": "vitest run",
     "setup": "miq install all",

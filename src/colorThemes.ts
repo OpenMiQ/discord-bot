@@ -14,7 +14,7 @@ import {
  * makeitaquote 11.0.0/11.2.0 this (and the functions below) is the
  * library's own `COLOR_THEME_CATALOGUE`/`CUSTOM_COLOR_THEME_CATALOGUE`/
  * `resolveColorTheme`/etc. — filed as
- * https://github.com/otnc/makeitaquote/issues/58, since we no longer need
+ * https://github.com/OpenMiQ/makeitaquote/issues/58, since we no longer need
  * to maintain a local copy.
  *
  * The two catalogues get their own select menu in components.ts rather

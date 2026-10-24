@@ -8,13 +8,13 @@
 
 </div>
 
-[![CI](https://img.shields.io/github/actions/workflow/status/otnc/OpenMiQ/ci.yml?branch=main&label=ci)](https://github.com/otnc/OpenMiQ/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/otnc/OpenMiQ)](./LICENSE) [![Additional Terms](https://img.shields.io/badge/additional%20terms-important)](./ADDITIONAL_TERMS.md) [![Node](https://img.shields.io/badge/node-%3E%3D24-339933?logo=node.js&logoColor=white)](https://nodejs.org) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+[![CI](https://img.shields.io/github/actions/workflow/status/OpenMiQ/discord-bot/ci.yml?branch=main&label=ci)](https://github.com/OpenMiQ/discord-bot/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/OpenMiQ/discord-bot)](./LICENSE) [![Additional Terms](https://img.shields.io/badge/additional%20terms-important)](./ADDITIONAL_TERMS.md) [![Node](https://img.shields.io/badge/node-%3E%3D24-339933?logo=node.js&logoColor=white)](https://nodejs.org) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 _[日本語](./README-ja.md)_
 
 A self-hosted Discord bot that turns a message into a quote image.
 
-Reply to a message and mention the bot (or right-click it and choose "Quote"): it renders that message as a quote image (via [makeitaquote](https://github.com/otnc/makeitaquote)) and replies with it.
+Reply to a message and mention the bot (or right-click it and choose "Quote"): it renders that message as a quote image (via [makeitaquote](https://github.com/OpenMiQ/makeitaquote)) and replies with it.
 
 ## Usage
 
@@ -169,5 +169,5 @@ otoneko. https://github.com/otnc
 This project is licensed under the [GNU Affero General Public License v3.0 or later](./LICENSE) with [additional terms](./ADDITIONAL_TERMS.md).
 
 - **SPDX:** `AGPL-3.0-or-later` (with additional terms under AGPL-3.0 Section 7)
-- If you distribute or run a modified version of this bot, you must make the modified source code available under AGPL-3.0, and display attribution (original repository URL: https://github.com/otnc/OpenMiQ) as required by the [additional terms](./ADDITIONAL_TERMS.md).
+- If you distribute or run a modified version of this bot, you must make the modified source code available under AGPL-3.0, and display attribution (original repository URL: https://github.com/OpenMiQ/discord-bot) as required by the [additional terms](./ADDITIONAL_TERMS.md).
 - The images under [`.github/assets/`](./.github/assets/) (the project icon and logo) are not covered by the AGPL-3.0 grant — see the [additional terms](./ADDITIONAL_TERMS.md#4-brand-assets-githubassets) for what's and isn't allowed.
