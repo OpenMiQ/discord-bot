@@ -8,13 +8,13 @@
 
 </div>
 
-[![CI](https://img.shields.io/github/actions/workflow/status/otnc/OpenMiQ/ci.yml?branch=main&label=ci)](https://github.com/otnc/OpenMiQ/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/otnc/OpenMiQ)](./LICENSE) [![Additional Terms](https://img.shields.io/badge/additional%20terms-important)](./ADDITIONAL_TERMS.md) [![Node](https://img.shields.io/badge/node-%3E%3D24-339933?logo=node.js&logoColor=white)](https://nodejs.org) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
+[![CI](https://img.shields.io/github/actions/workflow/status/OpenMiQ/discord-bot/ci.yml?branch=main&label=ci)](https://github.com/OpenMiQ/discord-bot/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/OpenMiQ/discord-bot)](./LICENSE) [![Additional Terms](https://img.shields.io/badge/additional%20terms-important)](./ADDITIONAL_TERMS.md) [![Node](https://img.shields.io/badge/node-%3E%3D24-339933?logo=node.js&logoColor=white)](https://nodejs.org) [![技術者倫理|遵守済み](https://gijutsusharin.li/badge.svg)](https://gijutsusharin.li)
 
 _[English](./README.md)_
 
 メッセージを引用画像に変換する、セルフホスト用の Discord Bot。
 
-メッセージにリプライした状態でBotをメンションする(または右クリックして「引用画像を作成」を選ぶ)と、そのメッセージを [makeitaquote](https://github.com/otnc/makeitaquote) で引用画像にして画像リプライします。
+メッセージにリプライした状態でBotをメンションする(または右クリックして「引用画像を作成」を選ぶ)と、そのメッセージを [makeitaquote](https://github.com/OpenMiQ/makeitaquote) で引用画像にして画像リプライします。
 
 ## 使い方
 
@@ -169,5 +169,5 @@ otoneko. https://github.com/otnc
 このプロジェクトは [GNU Affero General Public License v3.0 以降](./LICENSE) に、[追加条項](./ADDITIONAL_TERMS.md) を加えたライセンスの下で提供されています。
 
 - **SPDX:** `AGPL-3.0-or-later` (AGPL-3.0 第7条に基づく追加条項付き)
-- 本Botの改変版を配布または運用する場合は、改変後のソースコードをAGPL-3.0の下で公開し、[追加条項](./ADDITIONAL_TERMS.md) に従って帰属表示 (元のリポジトリURL: https://github.com/otnc/OpenMiQ) を行う必要があります。
+- 本Botの改変版を配布または運用する場合は、改変後のソースコードをAGPL-3.0の下で公開し、[追加条項](./ADDITIONAL_TERMS.md) に従って帰属表示 (元のリポジトリURL: https://github.com/OpenMiQ/discord-bot) を行う必要があります。
 - [`.github/assets/`](./.github/assets/) 内の画像 (プロジェクトのアイコン・ロゴ) はAGPL-3.0の許諾範囲に含まれません。可否については [追加条項](./ADDITIONAL_TERMS.md#4-brand-assets-githubassets) を参照してください。

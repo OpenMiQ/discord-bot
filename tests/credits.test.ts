@@ -11,7 +11,7 @@ describe("creditsFields", () => {
     for (const locale of ["en", "ja"]) {
       const [first] = creditsFields(locale);
       expect(first?.value).toContain("https://github.com/otnc\n");
-      expect(first?.value).toContain("https://github.com/otnc/OpenMiQ");
+      expect(first?.value).toContain("https://github.com/OpenMiQ/discord-bot");
     }
   });
 
@@ -20,7 +20,9 @@ describe("creditsFields", () => {
       const library = creditsFields(locale).find(
         (field) => field.name === "makeitaquote",
       );
-      expect(library?.value).toContain("https://github.com/otnc/makeitaquote");
+      expect(library?.value).toContain(
+        "https://github.com/OpenMiQ/makeitaquote",
+      );
       expect(library?.value).toContain(
         "https://www.npmjs.com/package/makeitaquote",
       );

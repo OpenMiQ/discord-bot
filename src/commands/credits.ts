@@ -14,13 +14,13 @@ const STRINGS = {
   },
   title: { en: "🙏 Credits", ja: "🙏 クレジット" },
   project: {
-    en: "https://github.com/otnc\n\nBy **otoneko.**\nOpenMiQ — https://github.com/otnc/OpenMiQ",
-    ja: "https://github.com/otnc\n\n作者: **otoneko.**\nOpenMiQ — https://github.com/otnc/OpenMiQ",
+    en: "https://github.com/otnc\n\nBy **otoneko.**\nOpenMiQ — https://github.com/OpenMiQ/discord-bot",
+    ja: "https://github.com/otnc\n\n作者: **otoneko.**\nOpenMiQ — https://github.com/OpenMiQ/discord-bot",
   },
   libraryTitle: { en: "makeitaquote", ja: "makeitaquote" },
   library: {
-    en: "The library this bot renders images with.\nhttps://github.com/otnc/makeitaquote\nhttps://www.npmjs.com/package/makeitaquote",
-    ja: "このBotが画像描画に使用しているライブラリです。\nhttps://github.com/otnc/makeitaquote\nhttps://www.npmjs.com/package/makeitaquote",
+    en: "The library this bot renders images with.\nhttps://github.com/OpenMiQ/makeitaquote\nhttps://www.npmjs.com/package/makeitaquote",
+    ja: "このBotが画像描画に使用しているライブラリです。\nhttps://github.com/OpenMiQ/makeitaquote\nhttps://www.npmjs.com/package/makeitaquote",
   },
   inspirationTitle: { en: "Inspired by", ja: "インスピレーション元" },
   inspiration: {
