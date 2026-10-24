@@ -16,7 +16,9 @@ describe("saveImageLocally", () => {
   });
 
   it("writes a PNG file into the configured directory when set", async () => {
-    const tmpDir = mkdtempSync(path.join(os.tmpdir(), "miq-bot-images-"));
+    const tmpDir = mkdtempSync(
+      path.join(os.tmpdir(), "openmiq-discord-images-"),
+    );
     process.env.SAVE_IMAGES_DIR = tmpDir;
 
     // SAVE_IMAGES_DIR is read once at module load, so reset the module

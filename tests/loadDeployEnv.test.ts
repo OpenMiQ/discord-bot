@@ -10,7 +10,7 @@ describe("loadDeployEnv", () => {
   let argv: string[];
 
   beforeEach(() => {
-    tmpDir = mkdtempSync(path.join(os.tmpdir(), "miq-bot-deploy-env-"));
+    tmpDir = mkdtempSync(path.join(os.tmpdir(), "openmiq-discord-deploy-env-"));
     writeFileSync(path.join(tmpDir, ".env"), "DEPLOY_ENV_TEST=prod\n");
     writeFileSync(path.join(tmpDir, ".env.local"), "DEPLOY_ENV_TEST=dev\n");
     cwd = process.cwd();

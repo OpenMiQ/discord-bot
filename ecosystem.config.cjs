@@ -44,7 +44,9 @@ function readDotEnv(filePath) {
 
 const dotEnv = readDotEnv(path.join(__dirname, ".env"));
 const appName =
-  process.env.PM2_APP_NAME?.trim() || dotEnv.PM2_APP_NAME?.trim() || "openmiq";
+  process.env.PM2_APP_NAME?.trim() ||
+  dotEnv.PM2_APP_NAME?.trim() ||
+  "openmiq-discord";
 
 module.exports = {
   apps: [

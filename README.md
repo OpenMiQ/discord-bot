@@ -120,7 +120,7 @@ pnpm run pm2:restart
 pnpm run pm2:stop
 ```
 
-It reads `.env` on its own — both for `PM2_APP_NAME` below and, via Node's `--env-file-if-exists`, for the bot's own variables — so there's nothing extra to export first. Set `PM2_APP_NAME` to name the process something other than the default `openmiq` (handy if you run more than one instance on the same machine).
+It reads `.env` on its own — both for `PM2_APP_NAME` below and, via Node's `--env-file-if-exists`, for the bot's own variables — so there's nothing extra to export first. Set `PM2_APP_NAME` to name the process something other than the default `openmiq-discord` (handy if you run more than one instance on the same machine).
 
 ## Configuration
 
@@ -136,7 +136,7 @@ All of these go in `.env` (see `.env.example`):
 | `SAVE_IMAGES_DIR` | If set, also save a copy of every generated image here (disabled by default) |
 | `ICON_PATH` | Path to an icon image `deploy:images` syncs to the Discord application (unset by default — no icon is synced) |
 | `LOGO_PATH` | Path to a logo image drawn as the quote watermark in place of the bot's tag (unset by default) |
-| `PM2_APP_NAME` | Process name pm2 registers the bot under, see [Running with pm2](#running-with-pm2) (default `openmiq`) |
+| `PM2_APP_NAME` | Process name pm2 registers the bot under, see [Running with pm2](#running-with-pm2) (default `openmiq-discord`) |
 
 Every user-facing string lives in `src/i18n/index.ts`'s `Translations` objects, colocated with the code that uses it (`src/components.ts`, `src/commands/*.ts`, `src/quoteMessages.ts`, …) rather than in separate per-locale files. Adding a language beyond English/Japanese means adding its code to `SUPPORTED_LOCALES` in `src/i18n/index.ts` and filling in that new entry everywhere a `Translations` object is defined.
 

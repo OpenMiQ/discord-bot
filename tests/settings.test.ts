@@ -11,7 +11,7 @@ describe("settings resolution", () => {
   let tmpDir: string;
 
   beforeAll(async () => {
-    tmpDir = mkdtempSync(path.join(os.tmpdir(), "miq-bot-test-"));
+    tmpDir = mkdtempSync(path.join(os.tmpdir(), "openmiq-discord-test-"));
     process.env.DATA_DIR = tmpDir;
     settingsMod = await import("../src/config/settings.js");
     settingsMod.loadSettingsStores();
